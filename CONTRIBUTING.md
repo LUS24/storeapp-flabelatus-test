@@ -3,15 +3,15 @@
 ## How to create a docker image
 
 ```commandline
-docker build --no-cache -t store .
+docker build --no-cache -t image_name .
 
 ```
 
 ## How to run the Dockerfile locally
 
 ```commandline
-docker run -dp 5005:5000 -w /app
- -v "/c/Users/scanlab/Desktop/pythonProject/updated_rest_api_course:/app" store
+docker run -dp 5000:5000 -w /app
+ -v "/c/Users/username/directory/project_folder/project_name:/app" image_name
 
 ```
 
