@@ -117,7 +117,7 @@ def create_app(db_url=None):
     api.register_blueprint(tag_blueprint)
     api.register_blueprint(users_blueprint)
 
-    app.run(host='0.0.0.0', port=5005, debug=True)
+    # app.run(host='0.0.0.0', port=5005, debug=True)
 
     return app
 
